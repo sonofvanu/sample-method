@@ -1,0 +1,5 @@
+package com.eazied.eaziedApp.configuration;
+
+public class SessionConfiguration {
+
+}

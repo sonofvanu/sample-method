@@ -1,0 +1,25 @@
+package com.eazied.eaziedApp.configuration;
+
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+import org.apache.log4j.Logger;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(basePackages = { "com.eazied" })
+public class SessionConfiguration implements HttpSessionListener {
+
+	public void sessionCreated(HttpSessionEvent event) {
+		System.out.println("==== Session is created ====");
+		event.getSession().setMaxInactiveInterval(30 * 60);
+	}
+
+	public void sessionDestroyed(HttpSessionEvent event) {
+		System.out.println("==== Session is destroyed ====");
+		event.getSession().invalidate();
+	}
+}

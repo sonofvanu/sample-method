@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+H:\Eclipse Workspaces\EaziEd-New\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1619655046.index
+\eaziedApp\src\main\resources
+H:\Eclipse Workspaces\EaziEd-New\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3130542144.index
+\eaziedApp\src\main\java
+H:\Eclipse Workspaces\EaziEd-New\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3198852424.index
+\eaziedApp\src\main\java

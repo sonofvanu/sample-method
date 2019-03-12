@@ -1,0 +1,5 @@
+database.connection.driver_class=org.postgresql.Driver
+database.connection.url=jdbc:postgresql://localhost:5432/new
+database.connection.username=postgres
+database.connection.password=admin
+database.property.location=

@@ -1,0 +1,13 @@
+com\eazied\eaziedTO\base\GroupMenuTO.class
+com\eazied\eaziedTO\base\ModulesTO.class
+com\eazied\eaziedTO\commonembed\AddressFields.class
+com\eazied\eaziedTO\base\GroupTO.class
+com\eazied\eaziedTO\base\LocationTypeTO.class
+com\eazied\eaziedTO\base\UserTO.class
+com\eazied\eaziedTO\base\MenuTO.class
+com\eazied\eaziedTO\base\MenuModulesTO.class
+com\eazied\eaziedTO\commonembed\AuditFields.class
+com\eazied\eaziedTO\base\GroupModuleAccessTO.class
+com\eazied\eaziedTO\base\LocationTO.class
+com\eazied\eaziedTO\base\OrganizationTO.class
+com\eazied\eaziedTO\App.class

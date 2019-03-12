@@ -1,0 +1,25 @@
+log4j.rootLogger=DEBUG, consoleAppender, fileAppender
+ 
+log4j.category.your.category.name=WARN
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+ 
+log4j.appender.consoleAppender=org.apache.log4j.ConsoleAppender
+log4j.appender.consoleAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.consoleAppender.layout.ConversionPattern=%d{HH:mm:ss,SSS} [%t] %-5p %C{1} : %m%n
+
+log4j.appender.R=org.apache.log4j.RollingFileAppender
+log4j.appender.R.File=D:/EaziEd/LogFile/EaziEd-%d{yyyy-MM-dd}.log
+
+#Daily backups the log file at midnight
+log4j.appender.R.DatePattern='.'yyyy-MM-dd
+log4j.appender.R.ImmediateFlush=true
+
+# Control the maximum log file size
+log4j.appender.R.MaxFileSize=100MB
+# Archive log files (one backup file here)
+log4j.appender.R.MaxBackupIndex=10
+
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%d{DATE} [%t] %-5p %C{1} : %m%n

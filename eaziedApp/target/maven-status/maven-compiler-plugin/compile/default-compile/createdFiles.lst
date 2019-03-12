@@ -1,0 +1,5 @@
+com\eazied\eaziedApp\controller\SampleController.class
+com\eazied\eaziedApp\configuration\AppConfiguration.class
+com\eazied\eaziedApp\configuration\DataBaseConfiguration.class
+com\eazied\eaziedApp\configuration\SessionConfiguration.class
+com\eazied\eaziedApp\configuration\AppInitializer.class
